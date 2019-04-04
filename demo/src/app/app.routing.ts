@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { ROUTES as ACCORDION_ROUTES } from './components/accordion/accordion.module';
 import { ROUTES as ALERT_ROUTES } from './components/alert/alert.module';
+import { ROUTES as BREAD_CRUMB } from './components/breadcrumb/breadcrumb.module';
 import { ROUTES as BUTTONS_ROUTES } from './components/buttons/buttons.module';
 import { ROUTES as CAROUSEL_ROUTES } from './components/carousel/carousel.module';
 import { ROUTES as COLLAPSE_ROUTES } from './components/collapse/collapse.module';
@@ -34,6 +35,10 @@ const routes: Routes = [
   {
     path: 'components/alert',
     children: ALERT_ROUTES
+  },
+  {
+    path: 'components/breadcrumb',
+    children: BREAD_CRUMB
   },
   {
     path: 'components/buttons',

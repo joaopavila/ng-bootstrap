@@ -1,6 +1,6 @@
 import {NgModule, ModuleWithProviders} from '@angular/core';
 
-import {NgbAccordionModule, NgbPanelChangeEvent} from './accordion/accordion.module';
+import {NgbAccordionModule} from './accordion/accordion.module';
 import {NgbAlertModule} from './alert/alert.module';
 import {NgbButtonsModule} from './buttons/buttons.module';
 import {NgbCarouselModule} from './carousel/carousel.module';
@@ -8,12 +8,7 @@ import {NgbCollapseModule} from './collapse/collapse.module';
 import {NgbDatepickerModule} from './datepicker/datepicker.module';
 import {NgbDropdownModule} from './dropdown/dropdown.module';
 import {
-  NgbModalModule,
-  NgbModal,
-  NgbModalConfig,
-  NgbModalOptions,
-  NgbModalRef,
-  ModalDismissReasons
+  NgbModalModule
 } from './modal/modal.module';
 import {NgbPaginationModule} from './pagination/pagination.module';
 import {NgbPopoverModule} from './popover/popover.module';
@@ -22,7 +17,7 @@ import {NgbRatingModule} from './rating/rating.module';
 import {NgbTabsetModule, NgbTabChangeEvent} from './tabset/tabset.module';
 import {NgbTimepickerModule} from './timepicker/timepicker.module';
 import {NgbTooltipModule} from './tooltip/tooltip.module';
-import {NgbTypeaheadModule, NgbTypeaheadSelectItemEvent} from './typeahead/typeahead.module';
+import {NgbTypeaheadModule} from './typeahead/typeahead.module';
 
 export {
   NgbAccordionModule,

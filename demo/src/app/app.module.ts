@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { routing } from './app.routing';
 import { NgbdAccordionModule } from './components/accordion/accordion.module';
 import { NgbdAlertModule } from './components/alert/alert.module';
+import { NgbdBreadcrumbModule } from './components/breadcrumb/breadcrumb.module';
 import { NgbdButtonsModule } from './components/buttons/buttons.module';
 import { NgbdCarouselModule } from './components/carousel/carousel.module';
 import { NgbdCollapseModule } from './components/collapse/collapse.module';
@@ -28,6 +29,7 @@ import { NgbdSharedModule } from './shared';
 const DEMOS = [
   NgbdAccordionModule,
   NgbdAlertModule,
+  NgbdBreadcrumbModule,
   NgbdButtonsModule,
   NgbdCarouselModule,
   NgbdCollapseModule,
@@ -42,7 +44,7 @@ const DEMOS = [
   NgbdTabsetModule,
   NgbdTimepickerModule,
   NgbdTooltipModule,
-  NgbdTypeaheadModule
+  NgbdTypeaheadModule,
 ];
 
 @NgModule({
